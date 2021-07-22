@@ -1,0 +1,20 @@
+{
+    "params": {
+        "websitename": "Tech Bloggers",
+        "local_uri": "mysql://root:@localhost/techbloggers",
+        "prod_uri": "https://root@localhost/TechBlogger",
+        "fb_uri": "https://www.facebook.com" ,
+        "tw_uri": "https://www.twitter.com" ,
+        "gh_uri" : "https://www.github.com" ,
+         "blog-name" : "Software networking",
+        "tag-line" : "A new revolution to networking",
+        "gmail-user" : " ",
+        "gmail-password" : "  " ,
+         "about_text": "Hi my name is Saurabh and I create blogs and I am a programmer",
+         "no_of_posts": 2 ,
+        "login_image":"login.svg",
+          "admin_user":"harry",
+        "admin_password": "subscribenow",
+      "upload_location": "C:\\Users\\Saurabh\\PycharmProjects\\Flask\\static"
+    }
+}

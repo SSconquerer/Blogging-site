@@ -1,0 +1,35 @@
+
+{% extends "layout.html" %}
+{% block body %}
+
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url(       {{ url_for('static', filename='assets/img/about-bg.jpg') }} ">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="page-heading">
+                            <h1>About Me</h1>
+                            <span class="subheading">This is what I do.</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <main class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <p>One of the misconceptions about starting a blog is that you need to be a great writer to be successful. Nothing could be further from the truth. People read blog sites to get a personal perspective on things, so most bloggers write in a very informal and conversational style.</p>
+                        <p>And because of the format, many successful bloggers will write about a variety of topics on the same blog.
+
+In addition, you don’t need to be an expert on any of the topics you write about to have a successful blog. For example, visitors to a cooking blog don’t want to read a textbook from a food scientist, they want to hear the experiences of someone who has actually cooked some real meals, mistakes and all.</p>
+                        <p>At its heart, blogging is about sharing your knowledge with the world. Writing about things that you are passionate about makes the process of starting a successful blog so much easier. As long as you are writing about things that you are genuinely interested in, your passion will shine through and keep your visitors interested.
+
+</p>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+        {% endblock %}
